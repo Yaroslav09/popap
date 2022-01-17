@@ -1,0 +1,191 @@
+.some-body-section {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  width: 100wv;
+  height: 100vh;
+  background-color: #dbf6ae;
+}
+
+.some-body-section .thanks-modal-wrapper {
+  position: relative;
+  display: block;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 12%;
+  background-color: #fff;
+  border: 1px solid grey;
+}
+
+.some-body-section .thanks-modal-wrapper a {
+  text-decoration: none;
+}
+
+.some-body-section .thanks-modal-wrapper .thanks-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+}
+
+.some-body-section .thanks-modal-wrapper .thanks-modal-header h3 {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 10px 0px 10px 20px;
+}
+
+.some-body-section .thanks-modal-wrapper .thanks-modal-header p {
+  padding-right: 20px;
+}
+
+.some-body-section .thanks-modal-description {
+  padding-left: 20px;
+}
+
+.some-body-section .thanks-modal-sort {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px 10px 40px;
+  font-weight: bold;
+}
+
+.some-body-section .thanks-modal-sort label {
+  padding: 0px 6px 0px 20px;
+}
+
+.some-body-section .thanks-modal-user-card {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.some-body-section .thanks-modal-user-card .form-control {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+.some-body-section .thanks-modal-user-card .form-control input[type="radio"] {
+  appearance: none;
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.2em;
+  height: 1.2em;
+  border: 0.1em solid currentColor;
+  border-radius: 50%;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+}
+
+.some-body-section .thanks-modal-user-card .form-control input[type="radio"]::before {
+  content: "";
+  width: 0.7em;
+  height: 0.7em;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em blue;
+  background-color: CanvasText;
+}
+
+.some-body-section .thanks-modal-user-card .form-control input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+
+.some-body-section .thanks-modal-user-card .form-control .user-info {
+  position: relative;
+  width: 100%;
+  border: solid 2px grey;
+  border-radius: 10px;
+  margin: 10px 20px;
+}
+
+.some-body-section .thanks-modal-user-card .form-control .user-info .user-info-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 16px;
+  padding: 0px 40px 0px 20px;
+}
+
+.some-body-section .thanks-modal-user-card .form-control .user-info .user-info-list li {
+  padding: 5px 0px;
+}
+
+.some-body-section .thanks-modal-user-card .form-control .user-info .user-info-list li .user-info-status {
+  background-color: green;
+  border-radius: 5px;
+  padding: 1px 8px;
+  color: white;
+}
+
+.some-body-section .thanks-modal-user-card .form-control .user-info #more {
+  display: none;
+}
+
+.some-body-section .thanks-modal-user-card .form-control .user-info .thanks-modal-details h5 {
+  border-top: 1px solid grey;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.some-body-section .thanks-modal-user-card .form-control .user-info .thanks-modal-details .user-info-add-list {
+  display: flex;
+  align-items: center;
+  gap: 0px 50px;
+  list-style: none;
+  font-size: 16px;
+  padding: 0px 40px 0px 20px;
+}
+
+.some-body-section .thanks-modal-user-card .form-control .user-info .thanks-modal-details .user-info-add-list li {
+  padding: 5px 0px;
+}
+
+.some-body-section .thanks-modal-user-card .show-details {
+  width: 100%;
+  background-color: #dbdbfc;
+}
+
+.some-body-section .thanks-modal-user-card .show-details a {
+  padding-left: 20px;
+}
+
+.some-body-section .bottom-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid grey;
+  background-color: whitesmoke;
+}
+
+.some-body-section .bottom-button .button-1 {
+  padding: 8px 10px;
+  color: blue;
+  background-color: white;
+  border: 1px solid blue;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.some-body-section .bottom-button .button-2 {
+  padding: 8px 10px;
+  color: white;
+  background-color: blue;
+  border: 1px solid blue;
+  border-radius: 5px;
+  font-weight: 500;
+  margin: 0px 18px;
+}
+/*# sourceMappingURL=style.css.map */
